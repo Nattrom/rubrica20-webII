@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@600&family=Hind+Vadodara:wght@700&family=Poppins:ital,wght@1,300&family=Solitreo&display=swap');
+
+.overview-container {
+  margin: 10px;
+  padding: 10px;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.overview-container h1 {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+  color: grey;
+  font-size: medium;
+}
+
+.name-container {
+  display: flex;
+  padding: 10px;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.first-name {
+  color: #1C2833;
+  font-weight: normal;
+  margin: 2px;
+  font-size: large;
+}
+
+.last-name {
+  color: black;
+  font-weight: bold;
+  margin: 3px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: xx-large;
+}
+
+.flag {
+  width: 60px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: calc(20% - 20px);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.favorite-icon {
+  font-size: 24px;
+  color: gray;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.favorite-icon.favorited {
+  color: red;
+}
+
+.favorite-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.favorite-card:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: calc(100% - 20px);
+  }
+
+  .favorite-card {
+    width: calc(100% - 20px);
+  }
+}

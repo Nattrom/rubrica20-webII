@@ -1,0 +1,18 @@
+/* Estilos normales de la tarjeta */
+.card {
+    /* Estilos normales aquí */
+    transition: transform 0.3s;
+    margin-top: 30px; /* Agrega una transición suave al efecto de zoom */
+  }
+  
+  /* Estilos para aplicar en hover */
+  .card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño en un 5% en hover */
+    /* Otros estilos en hover si es necesario */
+  }
+/* Estilos para hacer las imágenes cuadradas */
+
+
+
+
+/* Otros estilos según sea necesario */
